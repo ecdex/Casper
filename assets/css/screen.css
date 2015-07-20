@@ -244,12 +244,20 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #228;
+    text-decoration: none;
     transition: color 0.3s ease;
+}
+.post-content a {
+    text-shadow: 1px 0 0 #228;
 }
 
 a:hover {
-    color: #111;
+    color: #000;
+    text-decoration: underline;
+}
+a:visited {
+    color: #000;
 }
 
 p, ul, ol, dl {
