@@ -1,11 +1,20 @@
 <div class="banner">
+  <script>
+    var start = new Date("Fri Oct 30 2015 16:30:00 GMT-0700 (PDT)").getTime(),
+        now = new Date().getTime(),
+        daysEllapsed = (now - start) / (1000 * 60 * 60 * 24),
+        daysRemaining = 30 - Math.floor(daysEllapsed);
+  </script>
   <span class="banner-for-mobile">
-    11 days left to signup for <a href="https://myou.pub/">myou.pub</a>
+    <script>document.write(daysRemaining)</script>
+    days left to signup for <a href="https://myou.pub/">myou.pub</a>
   </span>
   <span class="banner-for-desktop">
     <span class="webaddr">myou.pub &mdash;
       microblogging without ads or abuse</span>
-    <br>11 days left to join our
+    <br>
+    <script>document.write(daysRemaining)</script>
+    days left to join our
     <a href="https://myou.pub/b/launch-better-social-media/">new
       users drive</a>.<br>
     <i><b><a href="https://myou.pub/">sign up now</a></b>
