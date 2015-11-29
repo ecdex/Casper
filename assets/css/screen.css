@@ -523,41 +523,6 @@ body.nav-opened .site-wrapper {
     width: 80%;
 }
 
-.main-header .banner {
-  margin-left: 15%;
-  margin-right: 15%;
-  border: solid 2px #000;
-
-  padding: 4px 8px;
-  margin-top: 80px;
-}
-.banner .banner-for-desktop .webaddr {
-  font-family: Inconsolata, monospace, sans-serif;
-  font-size: 80%;
-}
-.banner-for-desktop {
-  display: none;
-}
-.vertical {
-  padding-top: 116px;
-}
-@media (min-width: 768px) {
-  .main-header .banner {
-    padding: 10px 18px;
-    margin-top: 0px;
-  }
-  .banner-for-mobile {
-    display: none;
-  }
-  .banner-for-desktop {
-    display: inline;
-  }
-  .vertical {
-    padding-top: 170px;
-    padding-bottom: 20px;
-  }
-}
-
 .main-nav {
     position: relative;
     padding: 35px 40px;
